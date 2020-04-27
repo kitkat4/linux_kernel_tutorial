@@ -1,0 +1,11 @@
+* Dump systemcalls: 
+  $ strace -o <output.log> ./<program>
+
+* Dump systemcalls with time taken by each systemcall:
+  $ strace -o <output.log> ./<program>
+
+* Show CPU usage:
+  $ sar -P ALL 1
+
+
+
