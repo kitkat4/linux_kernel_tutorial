@@ -7,5 +7,10 @@
 * Show CPU usage:
   $ sar -P ALL 1
 
+* sched_practice.c
+writeやclock_gettimeにかかる時間は多くの場合数usだが，
+測ってみるとたまに100us程度かかったりする．
+Ubuntuが非RTOSだから？
+
 
 

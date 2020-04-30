@@ -8,6 +8,8 @@ int main(void){
 
     pid_t ret = fork();
 
+    puts("[ INFO] Called fork");
+
     if(ret == 0){
         printf("[ INFO] Child process (PID: %d)\n", getpid());
     }else{
