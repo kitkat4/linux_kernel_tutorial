@@ -12,5 +12,7 @@ writeやclock_gettimeにかかる時間は多くの場合数usだが，
 測ってみるとたまに100us程度かかったりする．
 Ubuntuが非RTOSだから？
 
-
+* プログラムを1つの論理CPUで実行する：
+  $ taskset -c 0 ./<program>
+  
 
